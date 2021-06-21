@@ -64,6 +64,10 @@ NSString *const kMPSettingsKeyGloablAutotypeAlwaysShowCandidateSelection  = @"Gl
 
 NSString *const kMPSettingsKeyEntrySearchFilterContext                    = @"EntrySearchFilterContext";
 
+
+NSString *const kMPSettingsKeyLaunchOnLogin                               = @"LaunchOnLogin";
+
+NSString *const kMPSettingsKeyEntrySearchFilterContext                    = @"EntrySearchFilterContext";
 NSString *const kMPSettingsKeyEnableQuicklookPreview                      = @"EnableQuicklookPreview";
 
 NSString *const kMPSettingsKeyCopyGeneratedPasswordToClipboard            = @"CopyGeneratedPasswordToClipboard";
@@ -169,6 +173,7 @@ NSString *const kMPDepricatedSettingsKeyAutotypeHideAccessibiltyWarning   = @"Au
                          kMPSettingsKeyQuitOnLastWindowClose: @NO,
                          kMPSettingsKeyEnableAutosave: @YES,
                          kMPSettingsKeyHideAfterCopyToClipboard: @NO,
+                         kMPSettingsKeyLaunchOnLogin: @NO
                          kMPSettingsKeyFaviconDownloadMethod: @(MPFaviconDownloadMethodDirect), // Download directly from host
                          kMPSettingsKeyGloablAutotypeAlwaysShowCandidateSelection: @NO
                          };
